@@ -1,0 +1,128 @@
+/*---------------------------------------------------------*/
+/*INDEX PAGE*/
+#submitButton {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    color: white;
+    background-color: #80bda9;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px;
+    border-radius: 8px;
+    border-color: #6ca190;
+    display: inline-block;
+}
+
+#patientForm a:hover {
+    background-color: #679e8c;
+}
+
+#formBg {
+    width: 550px;
+    height: 350px;
+    margin: 40px auto 0 auto; 
+    margin-top: 0;
+    display: flex;
+    border-radius: 16px;
+    background-color: #c8efe3;
+}
+
+#patientForm {
+    position: flex;
+    font-size: large;
+    padding-left: 75px;
+    margin-top: 25px;
+}
+
+#patientForm label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#first_name #last_name{
+    width: 180px;
+}
+
+#DOB{
+    padding-right: 8px;
+}
+
+#day_birth{
+    width: 45px;
+}
+
+#month_birth{
+    width: 60px;
+}
+
+#year_birth{
+    width: 50px;
+}
+
+#day_birth #month_birth #year_birth {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+
+#DOA{
+    padding-right: 8px;
+}
+
+#day_app{
+    width: 45px;
+}
+
+#month_app{
+    width: 60px;
+}
+
+#year_app{
+    width: 50px;
+}
+
+#day_app #month_app #year_app {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+
+#patientForm input {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+/*---------------------------------------------------------*/
+/*COOKIES*/
+
+#cookies {
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 525px;
+    background-color: rgb(250, 247, 247);
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-radius: 5px;
+}
+
+#acceptButton {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#learnButton {
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+/*---------------------------------------------------------*/
+/*DETAILS PAGE*/
+
+#subtitle{
+    font-size: xx-large;
+}
+
+.info{
+    margin-left: 200px;
+    margin-right: 200px;
+}
