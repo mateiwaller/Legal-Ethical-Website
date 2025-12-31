@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matei's Website</title>
+    <center><h1>Doctor's Appointment</h1></center>
+</head>
+<!-- This is where the form itself is located, alongside its inputs. -->
+<body>
+    <div id="formBg">
+        <form id="patientForm">
+            <label for="first_name">First Name(s)</label> 
+            <input type="text" name="first_name" id="first_name"><br>
+            <label for="last_name">Last Name(s)</label> 
+            <input type="text" name="last_name" id="last_name"><br>
+            <label for="DOB" id="DOB">Date of Birth</label>
+            <input type="text" name="day_birth" id="day_birth" placeholder="Day">
+            <input type="text" name="month_birth" id="month_birth" placeholder="Month">
+            <input type="text" name="year_birth" id="year_birth" placeholder="Year"><br>
+            <label for="DOA" id="DOA">Date of Appointment</label>
+            <input type="text" name="day_app" id="day_app" placeholder="Day">
+            <input type="text" name="month_app" id="month_app" placeholder="Month">
+            <input type="text" name="year_app" id="year_app" placeholder="Year"><br>
+            <a href="confirmation.html" id="submitButton">Continue</a>
+        </form>
+    </div>
+<!-- This is where the cookies section is located alongside its attributes. -->
+    <div id="cookies">
+        <p>This website stores and uses personal data for easier sign-in.</p>
+        <a href="details.html"><button id="learnButton">Learn more or decline</button></a>
+        <button id="acceptButton">Accept</button>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
